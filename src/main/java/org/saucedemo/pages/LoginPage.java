@@ -33,6 +33,9 @@ public class LoginPage {
     public void login(String username, String password) {
         enterUsername(username);
         enterPassword(password);
-        clickButton("Login");
+    }
+
+    public boolean checkIDElementExist(String IDName){
+        return driver.findElement(By.id(IDName)).isDisplayed();
     }
 }
