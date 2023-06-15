@@ -11,5 +11,5 @@ Feature: Login to saucedemo
   @login-success
   Scenario: Successful login with valid credentials
     Given I have fill username "standard_user" and password "secret_sauce"
-    When I click on the "Login" button
+    When I click on the "login-button" button
     Then I should be logged in successfully

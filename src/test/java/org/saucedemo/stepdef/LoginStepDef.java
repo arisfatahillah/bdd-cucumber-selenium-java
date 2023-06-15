@@ -45,6 +45,6 @@ public class LoginStepDef {
 
     @Then("I should be logged in successfully")
     public void i_should_be_logged_in_successfully() {
-        Assert.assertEquals(loginPage.checkIDElementExist("shopping_cart_container"), true);
+        Assert.assertEquals(loginPage.checkIDElementExist("shopping_cart_link"), true);
     }
 }
