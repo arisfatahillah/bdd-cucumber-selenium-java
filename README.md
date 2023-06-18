@@ -48,3 +48,6 @@ For your convenient please put the file based on the folder structure.
 |pom.xml
 
 ```
+
+## License
+MIT License
